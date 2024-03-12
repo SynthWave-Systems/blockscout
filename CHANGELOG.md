@@ -38,6 +38,10 @@
 
 ### Chore
 
+- [#9599](https://github.com/blockscout/blockscout/pull/9599) - Move
+  `has_methods_*` and `has_custom_methods_*` fields from
+  `/api/v2/addresses/{address_hash}` to `/api/v2/smart-contracts/{address_hash}`
+  endpoint response
 - [#9571](https://github.com/blockscout/blockscout/pull/9571) - Support Optimism Ecotone upgrade by Indexer.Fetcher.Optimism.TxnBatch module
 - [#9562](https://github.com/blockscout/blockscout/pull/9562) - Add cancun evm version
 - [#9260](https://github.com/blockscout/blockscout/pull/9260) - Optimism Delta upgrade support by Indexer.Fetcher.OptimismTxnBatch module
