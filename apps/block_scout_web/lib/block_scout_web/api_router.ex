@@ -389,7 +389,7 @@ defmodule BlockScoutWeb.ApiRouter do
     # leave the same endpoint in v1 in order to keep backward compatibility
     get("/search", SearchController, :search)
 
-    @max_complexity 200
+    @max_complexity 215
 
     forward("/graphql", Absinthe.Plug,
       schema: BlockScoutWeb.Schema,
