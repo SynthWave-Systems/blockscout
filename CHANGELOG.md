@@ -6,6 +6,8 @@
 
 ### Fixes
 
+[#9651](https://github.com/blockscout/blockscout/pull/9651) - Fix search for long integers
+
 ### Chore
 
 <details>
