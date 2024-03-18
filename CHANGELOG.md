@@ -6,6 +6,8 @@
 
 ### Fixes
 
+- [#9661](https://github.com/blockscout/blockscout/pull/9661) - Fix query timeout on blob transactions tab issues
+
 ### Chore
 
 <details>
